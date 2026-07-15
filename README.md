@@ -1,8 +1,14 @@
-# ProjectFlow 🚀
+# 🚀 ProjectFlow
 
-A full-stack MERN application built as part of my MERN Stack learning journey. ProjectFlow enables students and teachers to collaborate through a simple project submission and approval workflow.
+A Full-Stack Project Management System built using the MERN Stack.
 
-## Live Application
+### Tech Stack
+
+`MERN` `React` `Node.js` `Express.js` `MongoDB` `JWT` `Axios` `Tailwind CSS` `Cloudinary` `Vercel` `Render` `Git` `GitHub`
+
+---
+
+## 🌐 Live Demo
 
 **Frontend:** https://project-flow-cyan-psi.vercel.app/
 
@@ -10,115 +16,63 @@ A full-stack MERN application built as part of my MERN Stack learning journey. P
 
 ---
 
-## Screenshots
+## 📸 Screenshots
 
 ### Home Page
-
 ![Home](home.png)
 
 ### Login Page
-
 ![Login](login.png)
 
 ### Register Page
-
 ![Register](register.png)
 
 ### Teacher Dashboard
-
 ![Teacher Dashboard](teacherdashboard.png)
 
 ---
 
-## Features
+## ✨ Features
 
-* User Registration & Login
-* JWT-based Authentication
-* Student Dashboard
-* Teacher Dashboard
-* Project Submission
-* Project Approval & Rejection Workflow
-* File Upload Support
-* Cloudinary Integration
-* MongoDB Atlas Database
-* Responsive User Interface
-
----
-
-## Tech Stack
-
-### Frontend
-
-* React.js
-* React Router DOM
-* Axios
-* Tailwind CSS
-* Framer Motion
-* React Toastify
-* Recharts
-* Vite
-
-### Backend
-
-* Node.js
-* Express.js
-* MongoDB
-* Mongoose
-* JWT Authentication
-* Bcrypt
-* Multer
-* Cloudinary
-
-### Deployment
-
-* Vercel
-* Render
-* MongoDB Atlas
+- User Authentication & Authorization
+- JWT-based Login System
+- Student Dashboard
+- Teacher Dashboard
+- Project Submission Workflow
+- Project Approval & Rejection
+- File Upload Integration
+- Cloudinary Storage
+- Responsive UI
+- MongoDB Atlas Integration
 
 ---
 
-## Project Architecture
+## 🛠️ Architecture
 
-```text
 Frontend (React + Vite)
-        │
-        ▼
+↓
 Backend API (Node.js + Express)
-        │
-        ▼
-MongoDB Atlas Database
-        │
-        ▼
-Cloudinary File Storage
-```
+↓
+MongoDB Atlas
+↓
+Cloudinary Storage
 
 ---
 
-## Key Learnings
+## 📚 What I Learned
 
-This project helped me gain practical experience in:
-
-* Building REST APIs with Express.js
-* Designing MongoDB schemas with Mongoose
-* Implementing authentication using JWT
-* Integrating React frontend with backend APIs
-* Handling file uploads and cloud storage
-* Deploying full-stack applications
-* Managing source code with Git and GitHub
-
----
-
-## Future Enhancements
-
-* Role-based route protection
-* Project search and filtering
-* Status tracking and notifications
-* Enhanced dashboard analytics
-* Mobile-first UI improvements
+- Building REST APIs with Express.js
+- MongoDB Database Design using Mongoose
+- JWT Authentication
+- React Routing and State Management
+- Frontend-Backend Integration using Axios
+- File Upload Handling with Multer
+- Cloud Deployment using Vercel and Render
+- Git & GitHub Workflow
 
 ---
 
-## Author
+## 👨‍💻 Author
 
 **Shivanshi Yadav**
 
