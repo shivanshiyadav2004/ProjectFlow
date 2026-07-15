@@ -45,7 +45,7 @@ const Home = () => {
             whileHover={{ scale: 1.05 }}
             className="text-3xl font-extrabold text-blue-700 cursor-pointer"
           >
-             Projectly
+             ProjectFlow
           </motion.h1>
 
           <div className="flex items-center gap-4">
@@ -164,7 +164,7 @@ A Smart Student Project Management System
 
           <h2 className="text-5xl font-black text-center mb-5">
 
-            Why Choose Projectly?
+            Why Choose ProjectFlow?
 
           </h2>
 
