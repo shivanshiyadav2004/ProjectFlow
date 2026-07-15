@@ -81,7 +81,7 @@ const TeacherDashboard = () => {
     try {
 
       const response = await axios.get(
-        `http://localhost:5000/api/dashboard/${id}`,
+        `${import.meta.env.VITE_API_URL}/api/dashboard/${id}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -103,7 +103,7 @@ const TeacherDashboard = () => {
       setLoading(true);
 
       const response = await axios.get(
-        "http://localhost:5000/api/teacher/projects",
+        `${import.meta.env.VITE_API_URL}/api/teacher/projects`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -131,7 +131,7 @@ const TeacherDashboard = () => {
     try {
 
       await axios.patch(
-        `http://localhost:5000/api/project/${projectId}/approve`,
+       `${import.meta.env.VITE_API_URL}/api/project/${projectId}/approve`,
         {},
         {
           headers: {
@@ -158,7 +158,7 @@ const TeacherDashboard = () => {
     try {
 
       await axios.patch(
-        `http://localhost:5000/api/project/${projectId}/reject`,
+        `${import.meta.env.VITE_API_URL}/api/project/${projectId}/reject`,
         {},
         {
           headers: {

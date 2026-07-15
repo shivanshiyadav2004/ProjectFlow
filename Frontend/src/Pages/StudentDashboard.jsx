@@ -88,7 +88,7 @@ const StudentDashboard = () => {
     const fetchUser = async () => {
     try {
       const response = await axios.get(
-        `http://localhost:5000/api/dashboard/${id}`,
+        `${import.meta.env.VITE_API_URL}/api/dashboard/${id}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -106,7 +106,7 @@ const StudentDashboard = () => {
   const fetchTeachers = async () => {
     try {
       const response = await axios.get(
-        "http://localhost:5000/api/allteachers"
+        `${import.meta.env.VITE_API_URL}/api/allteachers`
       );
 
       setAllTeachers(response.data);
@@ -121,7 +121,7 @@ const StudentDashboard = () => {
       setLoading(true);
 
       const response = await axios.get(
-        "http://localhost:5000/api/student/projects",
+        `${import.meta.env.VITE_API_URL}/api/student/projects`,
         {
           headers: {
             studentid: id,
@@ -148,7 +148,7 @@ const StudentDashboard = () => {
 
     try {
       await axios.post(
-        "http://localhost:5000/api/addproject",
+        `${import.meta.env.VITE_API_URL}/api/addproject`,
         {
           studentId: id,
           teacherId,
@@ -175,7 +175,7 @@ const StudentDashboard = () => {
     try {
 
       await axios.delete(
-        `http://localhost:5000/api/delete/project/${projectId}`
+       `${import.meta.env.VITE_API_URL}/api/delete/project/${projectId}`
       );
 
       toast.success("Project Deleted");
