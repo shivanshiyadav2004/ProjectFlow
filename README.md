@@ -1,10 +1,16 @@
 # 🚀 ProjectFlow
 
 A Full-Stack Project Management System built using the MERN Stack.
-
+---
 ### Tech Stack
-
-`MERN` `React` `Node.js` `Express.js` `MongoDB` `JWT` `Axios` `Tailwind CSS` `Cloudinary` `Vercel` `Render` `Git` `GitHub`
+![MERN](https://img.shields.io/badge/MERN-Full%20Stack-success?style=for-the-badge)
+![React](https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react)
+![NodeJS](https://img.shields.io/badge/Node.js-Backend-green?style=for-the-badge&logo=node.js)
+![Express](https://img.shields.io/badge/Express.js-API-black?style=for-the-badge&logo=express)
+![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-green?style=for-the-badge&logo=mongodb)
+![JWT](https://img.shields.io/badge/JWT-Authentication-orange?style=for-the-badge)
+![Vercel](https://img.shields.io/badge/Vercel-Frontend-black?style=for-the-badge&logo=vercel)
+![Render](https://img.shields.io/badge/Render-Backend-blue?style=for-the-badge)
 
 ---
 
